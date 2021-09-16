@@ -3,6 +3,8 @@
 <style>
 table, th, td {
   border:1px solid black;
+    padding :15px;
+
 }
 </style>
 <body>
@@ -10,6 +12,11 @@ table, th, td {
 <h2>A basic HTML table</h2>
 
 <table style="width:100%">
+<caption><h2>Employee info</h2></caption>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
   <tr>
     <th>ID</th> 
     <th>First name</th>
