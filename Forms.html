@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/register.php" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Nadjah"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Rezzag lobza"><br>
+  <label for="lage">Age:</label><br>
+  <input type="number" id="lage" name="lage" value="29">
+  <br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" ><br>
+  
+  <label for="lpass">Password:</label><br>
+  <input type="password" id="lpass" name="lpass" ><br>
+     
+  <label for="gender">Gender:</label><br>     
+  <input type="radio" id="gender" name="lgender" value="Female" >Female
+  <input type="radio" id="gender" name="lgender" value="Male" > Male<br>
+  
+    <label for="Color">Color:</label><br>     
+  <input type="checkbox" id="ColorR" name="Colorr" value="red" >Red
+  <input type="checkbox" id="ColorG" name="Colorg" value="green" >Green
+  <input type="checkbox" id="ColorB" name="Colorb" value="blue" > Blue<br>
+  
+  <input type="submit" value="Register">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
